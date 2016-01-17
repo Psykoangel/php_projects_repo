@@ -1,0 +1,245 @@
+/* 
+    Document   : user_style
+    Created on : 18 juin 2012, 11:07:20
+    Author     : eXia_Michael
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* -- HTML -- */
+
+html
+{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+	font-family: 'Trebuchet MS';
+}
+
+/* -- BODY -- */
+
+body
+{
+    min-width: 1000px;  
+	background-color: #858585;	
+}
+
+/* -- HEADER -- */
+
+header
+{
+    height: 34px;
+    min-width: 101%;
+    margin-top: 0px;
+    position: fixed;
+    top: -24px;
+    left: 0px;
+    background-color: #4993ba;
+    color: white;
+    -moz-transition: 1.3s;
+}
+
+header:hover
+{
+    top: 0px;
+    -moz-transition: 1.3s;
+}
+
+header a
+{
+    color: white;
+    text-decoration: none;
+}
+
+#InfoMembre
+{
+    float: right;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+
+#InfoMembre span + a
+{
+    font-size: 0.7em;
+}
+
+/* -- NAVIGATION -- */
+
+nav
+{
+    width: 51.7%;
+    margin-left:23.5%;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+nav ul
+{
+    text-align: center;    
+}
+
+nav ul li
+{
+    display: inline;
+    list-style-type: none;
+    border-left: 2px solid black;
+}
+
+nav ul li a
+{
+    padding: 2px;
+    padding-left: 10px;
+    text-decoration: none;
+    font-family: Arial;
+    color: black;
+    -moz-transition: 1.3s;
+}
+
+nav ul li:first-child
+{
+    border: 0;
+}
+
+nav ul li a:hover
+{
+    text-decoration: none;
+    margin-right: 30px;
+    margin-left: 30px;
+    -moz-transition: 1.3s;
+	color: white;
+}
+
+/* -- CORPUS -- */
+
+#main
+{
+    width: 51%;
+    min-height: 300px;
+    max-height: 300px;
+    margin: 0px;
+    margin-left: 23.5%;
+    margin-bottom: 10px;
+    padding: 10px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background: url('images/loogo.png') no-repeat right #afaead;
+}
+
+#main li
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 140px;
+    height: 100px;
+    margin: 2px;
+    padding: 6px;
+    border: 2px solid black;
+    border-radius: 12px;
+    list-style-type: none;
+    text-align: center;
+    background: url('images/book.png') no-repeat bottom  #cfab5d;
+	
+}
+
+#main .books h5+div
+{
+    display: none;
+}
+
+#right
+{
+    float: right;
+    width: 21%;
+	height: 600px;
+    margin-top: 25px;
+    padding: 5px;
+	padding-left: 20px;
+	background: url('images/notification.png') no-repeat top right #d0975f;
+	background-position: 210px 10px;
+	border: 1px solid black;
+	border-radius: 2px;
+	box-shadow: 10px, 10px, black;
+	box-shadow: -8px 8px 10px black; 
+}
+
+#left
+{
+    float: left;
+    width: 16%;
+    height: 600px;
+    margin-top: 25px;
+    padding: 4px ;
+	border-radius: 2px;
+	padding-left: 70px;
+	border: 1px solid black;
+	background: url('images/livre.png') no-repeat top left #d0975f;
+	max-height: 600px;
+	box-shadow: 8px 8px 10px black; 
+}
+
+#left ul
+{
+    min-height: 500px;
+	margin-left:0px;
+}
+
+#left li
+{
+    display: block;
+    width: 140px;
+    min-height: 50px;
+    margin: 2px;
+    padding: 6px;
+    list-style-type: none;
+	border: 1px solid white;
+	margin-left:0px;
+}
+
+#left li .placeholder
+{
+	
+}
+
+
+
+.error
+{
+    display: none;
+    border: 2px solid red;
+    border-radius: 20px;
+    margin: 5px;
+    text-align: center;
+    
+    color: red;
+}
+
+#searchBox form label 
+{
+	display: inline-block;
+	width: 100px;
+}
+
+/* -- FOOTER -- */
+
+footer
+{
+    width: 51%;
+	height: 390px;
+    margin: 0px;
+    margin-left:23.5%;
+    padding: 10px;
+}
+
+footer img
+{
+	display: inline-block;
+	width:30%;
+}
+
+.footerLink
+{
+	font-family: 'Century Gothic';
+	font-size: 14px;
+	display: inline-block;
+	vertical-align: top;
+}

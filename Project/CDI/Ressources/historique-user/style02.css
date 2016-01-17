@@ -1,0 +1,24 @@
+/* 
+    Document   : style02
+    Created on : 25 juin 2012, 09:44:03
+    Author     : eXia_Michael
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* -- HTML -- */
+
+/* -- BODY -- */
+
+/* -- HEADER -- */
+
+/* -- NAVIGATION -- */
+
+/* -- SECTION -- */
+
+#main ul li
+{
+    list-style-type: disc;
+}
+
+/* -- FOOTER -- */

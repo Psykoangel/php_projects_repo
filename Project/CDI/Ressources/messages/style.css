@@ -1,0 +1,31 @@
+﻿/* Messages d'information */
+
+.message-info
+{
+	border:1px solid #00cc00;
+	margin-bottom:10px;
+	color: #00cc00;
+}
+
+.message-erreur
+{
+	border:1px solid #ff0000;
+	margin-bottom:10px;
+	color: #ff0000;
+}
+
+.message-important
+{
+	border:1px solid #ff6e00;
+	margin-bottom:10px;
+	color: #ff6e00;
+}
+
+.message-question
+{
+	border:1px solid #0059ff;
+	margin-bottom:10px;
+	color: #0059ff;
+}
+
+

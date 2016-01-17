@@ -1,0 +1,35 @@
+/* 
+    Document   : style
+    Created on : 12 juin 2012, 14:32:52
+    Author     : eXia_Michael
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+fieldset
+{
+    width: 230px;
+    display: inline-block;
+}
+
+#connexion, #inscription
+{
+    width: 200px;
+    display: block;
+}
+
+#connexion input, #inscription input, label
+{
+    margin: 2px; 
+}
+
+a
+{
+    display: block;
+    text-decoration: none;
+}
+
+a:hover
+{
+    text-decoration: underline;
+}

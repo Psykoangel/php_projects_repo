@@ -1,0 +1,180 @@
+﻿body {
+	margin:0;
+	padding: 0;
+	border: 0;
+	width:940px;
+	margin-left: auto;
+	margin-right: auto;
+	background : url(../img/background.jpg) no-repeat top center #a4abbf;
+}
+
+/*  */
+.main_container
+{
+	position: relative;
+	clear: both;
+	width: 100%;
+	overflow: hidden;
+}
+
+
+/* Colonne de gauche */
+.left_container
+{
+	position: inherit;
+	display: inline-block;
+	float: left;	
+	width: 221px;	
+	background-color: #35474b;
+}
+
+.left_container section
+{
+	padding-left: 10%;
+}
+
+.left_container section img
+{
+	display: block;
+}
+
+.left_container section h4
+{
+	display: inline;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	text-align: left;
+}
+
+#USER
+{
+	display: inline;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	color: white;
+	text-align: left;
+}
+
+
+
+/* --------------------------- */
+
+/* Colonne de droit */
+
+.right_container
+{
+	position: inherit;
+	display: inline-block;
+	float: right;
+	width: 719px;
+	min-height: 661px;
+	background-color: #accfcc;
+}
+
+.right_container section
+{
+	padding: 0% 2% 0% 2%;
+}
+
+.right_container section img
+{
+	padding : 0;
+}
+
+
+.right_container header
+{
+	width: 720px;
+	height: 102 px;
+	display:block;
+	background-color: white;
+	
+}
+
+.right_container header h1
+{
+	display: inline;
+	vertical-align: 140%;
+	font-family: 'Century Gothic';
+	color: #8a0917;
+	font-size : 25px;
+	font-weight: normal;
+}
+
+/* --------------------------- */
+
+/* Navigation */
+
+nav .section h3
+{
+	width: 210px;
+	text-align:right;
+	background-color: #8a0917;
+	border: 1px solid black;
+	border-radius: 4px;
+	margin-top: 10px;
+	box-shadow: 2px 2px 4px black;
+	
+}
+
+nav .section h3 a
+{
+	text-align:right;
+	text-decoration: none;
+	font-size: 24px;
+	font-family: Arial;
+	Color: white;
+	padding-right: 15px;
+	
+}
+
+nav .section div a
+{
+	text-align: right;
+	text-decoration: none;
+	font-size: 14px;
+	font-family: Arial;
+	Color: #b8ae9c;
+	padding-right: 5px;
+	
+}
+
+nav .section div a:hover
+{
+	color: white;
+}
+
+ul 
+{
+	text-decoration: none;
+	list-style-type: none; 
+}
+
+li a
+{
+	display: inline-block;
+	text-decoration: none;
+	color: gray;
+}
+nav h3 + div {
+	text-align: right;
+	height: 0;
+	overflow: hidden;
+	-webkit-transition: height 0.3s ease-in;
+	-moz-transition: height 0.3s ease-in;
+	-o-transition: height 0.3s ease-in;
+	-ms-transition: height 0.3s ease-in;
+	transition: height 0.3s ease-in;
+}
+
+nav :target h3 + div {
+        height: 100px;
+		
+}
+
+nav .section.large:target h3 + div {
+        overflow: auto;
+		
+}
+
+/* --------------------------- */

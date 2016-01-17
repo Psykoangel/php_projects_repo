@@ -1,0 +1,51 @@
+/* 
+    Document   : style
+    Created on : 11 juin 2012, 12:32:25
+    Author     : eXia_Michael
+    Description:
+        Purpose of the stylesheet follows.
+*/
+body
+{
+    max-width: 950px;
+}
+
+header #hello
+{
+    display: inline-block;
+    width: 450px;
+}
+
+header form
+{
+    display: inline-block;
+    width: 200px;
+    margin-left: 20px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: -5px -5px 1px 2px black inset;
+}
+
+header form input
+{
+    width: 180px;
+    margin: 5px;
+}
+
+header form p
+{
+    padding: 5px;
+    background-color: aquamarine;
+    border: 2px solid aqua;
+    border-radius: 50px;
+}
+
+header 
+
+
+form a
+{
+    text-decoration: none;
+    color: black;}
+

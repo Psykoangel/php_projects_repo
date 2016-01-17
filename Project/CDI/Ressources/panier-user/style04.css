@@ -1,0 +1,25 @@
+/* 
+    Document   : style04
+    Created on : 25 juin 2012, 15:37:59
+    Author     : eXia_Michael
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* -- HTML -- */
+
+/* -- BODY -- */
+
+/* -- HEADER -- */
+
+/* -- NAVIGATION -- */
+
+/* -- SECTION -- */
+
+
+#main input[type='submit']
+{
+    margin-top: 20px;
+}
+
+/* -- FOOTER -- */

@@ -1,0 +1,50 @@
+/* 
+    Document   : style03
+    Created on : 25 juin 2012, 10:42:42
+    Author     : eXia_Michael
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* -- HTML -- */
+
+/* -- BODY -- */
+
+/* -- HEADER -- */
+
+/* -- NAVIGATION -- */
+
+#main h3
+{
+    margin: 0px;
+    margin-bottom: 10px; 
+    padding: 0px;
+}
+
+#main input
+{
+    width: 250px;
+    margin-bottom: 5px;
+    margin-left: 50px;
+    padding-left: 10px;
+    border-radius: 15px;
+}
+
+#main form textarea
+{
+    margin: 15px 0px 20px 50px;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+#main form input[type='submit']
+{
+    width: 150px;
+    margin-left: 320px;
+}
+
+/* -- SECTION -- */
+
+/* -- FOOTER -- */
+
+

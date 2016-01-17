@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+
+<head>
+<title>eXia.cesi : Thèses professionnelles 2012</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-15" />
+<link rel="stylesheet" type="text/css" href="CSS/style.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="CSS/oStyle.css" media="screen" />
+<script src="inscription.js"></script>
+</head>
+
+<body>
+
+<!-- En-tête -->
+<div id="header">
+	<img src="Images/LogoExia200px.jpg" alt="img/logo exia.cesi" />
+	<h1>eXia.cesi : Thèses professionnelles 2012</h1>
+	<p>Présentations publiques au centre eXia.cesi de Strasbourg - les 19 et 20 juin 2012</p>
+</div>
+
+<!-- Menu accès rapide -->
+<ul id="menu">
+	<li><a href="index.html" accesskey="1">Accueil</a></li>
+	<li><a href="programme.html">Programme</a></li>
+	<li><a href="inscription.html">Inscription</a></li>
+	<li><a href="contact.html">Infos Pratiques</a></li>
+	<li><a href="live.html">Conférences Live</a></li>
+	<li><a href="http://exia.cesi.fr" target="_blank">L'école</a></li>
+</ul>
+
+<!-- Contenu général -->
+<div id="global">
+
+	<!-- News 1 -->
+	<form id="inscription">
+		<h1>Inscription</h1>
+		
+		<!-- Liste des évenements -->
+		<fieldset>
+			<legend>Liste des évènements</legend>
+			
+                        <div class="journee">
+				Mardi 19 Juin<br/>
+					<ul>
+						<li>
+							<span onClick="halfday(this);repas(this);">Matin :</span><br/>
+							<input type="checkbox" name="ev1" id="ev1" onChange="repas(this);"/>
+								<label for="ev1">Conférence HTML</label><br/>
+							<input type="checkbox" name="ev2" id="ev2" onChange="repas(this);"/>
+								<label for="ev2">Conférence CSS</label><br/>
+							<div id="repas1"><input type="checkbox" name="repas1" id="cb_repas1"/>
+								<label for="cb_repas1">Repas de midi gratuit</label></div>
+						</li>
+						<li>
+							<span onClick="halfday(this);">Après-midi :</span><br/>
+							<input type="checkbox" name="ev3" id="ev3"/><label for="ev1">Conférence JS</label><br/>
+						</li>
+					</ul>
+			</div>
+			
+			<div class="journee">
+				Mercredi 20 Juin<br/>
+				<ul>
+					<li>
+						<span onClick="halfday(this);repas(this);">Matin :</span><br/>
+						<input type="checkbox" name="ev4" id="ev4" onClick="repas(this);"/>
+							<label for="ev1">Conférence PHP (Partie 1)</label><br/>
+						<div id="repas2"><input type="checkbox" name="repas2" id="cb_repas2"/>
+								<label for="cb_repas2">Repas de midi gratuit</label></div>
+					</li>
+					<li>
+						<span onClick="halfday(this);">Après-midi :</span><br/>
+						<input type="checkbox" name="ev5" id="ev5"/><label for="ev1">Conférence PHP (Partie 2)</label><br/>
+					</li>
+				</ul>
+			</div>
+		</fieldset>
+		
+		<fieldset>
+			<legend>Coordonnées</legend>
+			
+			<label for="prenom">Prénom</label>
+				<input type="text" name="prenom" id="prenom" onkeyUp="maj(this.form)" /><br/>
+			<label for="nom">Nom</label>
+				<input type="text" name="nom" id="nom" onkeyUp="maj(this.form)" /><br/>
+			<label for="mail">Adresse e-mail</label>
+				<input type="email" name="mail" id="mail" onkeyUp="maj(this.form)" /><br/>
+			<label for="conf_mail">Confirmez</label>
+				<input type="email" name="conf_mail" id="conf_mail" onkeyUp="maj(this.form)" /><br/>
+			
+		</fieldset>
+		
+                <a id="envoyer" href="" onMouseOver="maj(document.getElementsByTagName('FORM')[0]);" >Envoyer</a>
+		
+	</form>
+	
+</div>
+</body>
+</html>
+
+

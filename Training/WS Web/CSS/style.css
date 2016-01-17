@@ -1,0 +1,328 @@
+/*
+
+    FILE : style.css / Cascade Style Sheet
+    Creation Date : 04/06/2012 12h05
+    WorkShop HTML&JavaScript
+
+*/
+/* -- Special Font -- */
+@font-face {
+    font-family: 'KomikaAxisRegular';
+    src: url('Font/KOMIKAX_-webfont.eot');
+    src: url('Font/KOMIKAX_-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Font/KOMIKAX_-webfont.woff') format('woff'),
+         url('Font/KOMIKAX_-webfont.ttf') format('truetype'),
+         url('Font/KOMIKAX_-webfont.svg#KomikaAxisRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* -- HTML -- */
+
+html
+{
+    margin: 0px;
+    padding: 0px;
+    background-color: #a6a6a6;
+    overflow-x: hidden;
+}
+
+/* -- BODY -- */
+
+body
+{
+    width: 730px;
+    min-height: 1000px;
+    margin: auto;
+    box-shadow: 2px 8px 3px 2px black;
+    background-color: #FFF;
+}
+
+/* -- HEADER -- */
+
+#header
+{
+    width: 730px;
+    min-width: 730px;
+    height: 247px;
+    margin: auto;
+    background: url('../Images/banniere.png') no-repeat;
+}
+
+#header h1
+{
+    margin-left: 20px;
+    padding-top: 40px;
+    font-size: 1.8em;
+}
+
+#header img
+{
+    float: right;
+    margin: 20px 10px 30px 15px;
+}
+
+#header p
+{
+    clear: both;
+    margin-top: 80px;
+    margin-left: 30px;
+    font-size: 1.3em;
+    
+}
+
+/* -- NAVIGATION -- */
+
+#menu
+{
+    width: 690px;
+    min-width: 690px;
+    height: 30px;
+    margin: auto;
+    margin-right: 20px;
+    padding-top: 10px;
+    background-color: #000;
+    font-family: Arial;
+    font-size: 0.9em;
+}
+
+#menu li
+{
+    display: inline;
+/*    float: left;*/
+    padding: 0px 5px 0px 5px;
+    list-style-type: none;
+    color: white;
+    border-left: 2px solid white;
+    
+}
+
+#menu li a
+{
+    color: white;
+    text-decoration: none;
+    transition: 1.5s;
+    -moz-transition: 1.5s;
+    -webkit-transition: 1.5s;
+}
+
+#menu li:first-child
+{
+    border-left: none;
+    padding-left: 60px;
+}
+
+#menu li a:hover
+{
+    padding-left: 15px;
+    padding-right: 15px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    font-size: 1.4em;
+    transition: 0.7s;
+    -moz-transition: 0.7s;
+    -ms-transition: 0.7s;
+    -webkit-transition: 0.7s;
+}
+
+/* -- GLOBAL CORPUS -- */
+
+#global
+{
+    clear: both;
+    width: 690px;
+    min-width: 690px;
+    margin: auto;
+    padding: 20px 10px 20px 30px;
+    background-color: #FFF;
+}
+
+#info-une
+{
+    margin-right: 10px;
+}
+
+#info-une h1
+{
+    color: black;
+    font-size: 1.3em;
+    text-decoration: underline;
+}
+
+#info-une h2
+{
+    width: 410px;
+    margin-bottom: 20px;
+    color: #949494;
+    font-family: Arial;
+    font-size: 0.8em;
+}
+
+#illustration
+{
+    width: 230px;
+    height: 120px;
+    float: right;
+    padding: 20px 0px 10px 20px;
+    margin: 0px 20px 0px 15px;
+    background-color: #a6a6a6;
+    font-family: Arial;
+/*    position: relative;
+    bottom: 30px;*/
+    transition: 2s;
+    -moz-transition: 2s;
+    -webkit-transition: 2s;
+}
+
+#illustration:hover
+{
+    background: -moz-linear-gradient(top right, #7ceaa4, #FFF);
+    background: -webkit-linear-gradient(top right, #7ceaa4, #FFF);
+/*    transition: 5s;
+    -moz-transition: 5s;
+    -webkit-transition: 5s;*/
+}
+
+#illustration:hover img + p
+{
+    text-shadow: 10px -10px 1px black,
+                 10px 10px 1px black;
+    transition: 1s;
+    -moz-transition: 1s;
+    -webkit-transition: 1s;
+}
+
+#illustration img
+{
+    float: left;
+    width: 75px;
+    height: 100px;
+    margin: 5px 5px 5px 0px;
+}
+
+#illustration img + p
+{
+    margin-bottom: 5px;
+    color: white;
+    font-size: 0.9em;
+}
+
+#illustration p+p
+{
+    font-size: 0.7em;
+}
+
+#illustration:last-child
+{
+    font-size: 0.7em;
+}
+
+#illustration p
+{
+    margin-top: 0px;
+}
+
+#info-une p
+{
+    font-family: Arial;
+    font-size: 0.8em;
+}
+
+#info-une #illustration + p
+{
+    text-align: justify;
+}
+
+#info-archives
+{
+    margin-top: 30px;
+    color: #8a8a8a;
+}
+
+#info-archives h2
+{
+    margin-bottom: 5px;
+    color: #949494;
+    font-family: Arial;
+    font-size: 0.8em;
+}
+
+#info-archives ul
+{
+    margin-top: 0px;
+}
+
+#info-archives ul li
+{
+    list-style-type: none;
+}
+
+#info-archives ul li a
+{
+    color: #949494;
+    text-decoration: underline;
+    transition: 1.5s;
+    -moz-transition: 1.5s;
+    -webkit-transition: 1.5s;
+}
+
+#info-archives ul li a:hover
+{
+    text-decoration: none;
+}
+
+#jeuG h2
+{
+    margin-top: 30px;
+    margin-bottom: 5px;
+    color: #949494;
+    font-family: Arial;
+    font-size: 0.8em;
+}
+
+/* -- FOOTER -- */
+
+#footer
+{
+    margin-top: 50px;
+}
+
+#cadre
+{
+    width: 700px;
+    margin-left: 15px;
+    overflow: hidden;
+}
+
+#linksFbTw
+{
+    background-color: rgba(179, 196, 167, 0.6);
+}
+
+#linksFbTw a
+{
+    display: block;
+    margin: 20px 0px 0px 30px;
+    color: #949494;
+    font-family: 'KomikaAxisRegular';
+    font-size: 1.5em;
+    text-decoration: none;
+    transition: 1.5s;
+    -moz-transition: 1.5s;
+    -webkit-transition: 1.5s;
+}
+
+#linksFbTw a:hover
+{
+    color: #7ceaa4;
+    text-shadow: 10px -10px 2px white;
+    transition: 0.7s;
+    -moz-transition: 0.7s;
+    -webkit-transition: 0.7s;
+}
+
+#linksFbTw a+a
+{
+    margin: 0px 0px 30px 450px;
+}
+

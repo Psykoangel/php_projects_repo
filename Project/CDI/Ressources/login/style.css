@@ -1,0 +1,34 @@
+﻿body {
+	background: url(background_index.png) no-repeat top center #a4abbf;
+	width: 940px; 
+	margin:auto;
+	font-family: 'Trebuchet MS' ;
+}
+
+header {
+	text-align:center;
+}
+
+#connexion {
+	text-align:right;
+	font-family: 'Century Gothic';
+	font-size: 18px;
+	margin-right: 380px;
+}
+.input_connex {
+	border: 1px solid black;
+	border-radius: 10px;
+	padding-left: 7px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+#btn_submit {
+	
+	background-color: #bbbbbb;
+	color:black;
+	font-family: 'Century Gothic';
+	border-radius: 5px;
+	font-size: 18px;
+}
+	

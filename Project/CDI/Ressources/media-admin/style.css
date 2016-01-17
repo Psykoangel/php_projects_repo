@@ -1,0 +1,178 @@
+/*
+********* PROJET CDI **********
+
+********CSS STYLESHEET*******
+
+Description : Feuille de style 
+
+@Author : Despendo 
+Copyright 2012 pour eXia.Cesi Strasbourg 
+
+*/
+
+.Media h3
+{
+	font-size: 28px;
+	font-family: 'Century Gothic';
+	color: #728481;
+}
+
+.Media label
+{
+	display: inline-block;
+	min-width:100px;
+	
+}
+
+.Exemplaire label
+{
+	display: inline-block;
+	width:198px;
+	text-align: right;
+	padding-right: 7px;
+}
+
+form #submit
+{
+	margin-left: 150px;
+}
+
+.InputText
+{
+	width: 186px;
+	margin-right: 20px;
+}
+
+form textarea 
+{
+	vertical-align: top;
+}
+
+#left
+{
+	float:left;
+	width:300px;
+	font-family: 'Century Gothic';
+}
+
+#right
+{
+	float:right;
+	width:300px;
+	font-family: 'Century Gothic';
+}
+
+#bottom
+{
+	clear:both;
+	font-family: 'Century Gothic';
+	
+}
+
+#bottom a
+{
+	text-decoration:none;
+	color: black;
+}
+
+h2
+{
+	font-family: 'Trebuchet MS';
+	color: #8a0917;
+}
+
+
+
+/*
+ * Bloc Réservation 
+ */
+
+.blocR
+{
+	display:inline-block;
+	width: 270px;
+	min-height: 300px;
+	vertical-align: top;
+	background-color: #d4d4d4;
+	border: 1px solid black;
+	box-shadow: 5px 5px 12px black;
+	margin-left: 14px;
+}
+
+.blocR .titreR
+{
+	display: inline-block;
+	background-color: #bf0505;
+	width: 243px;
+	height: 46px;
+	border: 1px solid black;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 8px;
+	margin-bottom: 10px;
+	border-radius: 9px;
+	font-family: 'Trebuchet MS';
+	font-size: 18px;
+	text-align: center;
+	color: #b5c4c2;
+	line-height: 45px;
+}
+
+.blocR .divR
+{
+	width: 243px;
+	height: 46px;
+	margin-left: 10px;
+	margin-right: 8px;
+}
+
+.blocR .TitreListe
+{
+	display: inline-block;
+	background-color: #bf5805;
+	width: 243px;
+	height: 46px;
+	border: 1px solid black;
+	margin-top: 10px;
+	margin-right: 8px;
+	margin-bottom: 10px;
+	border-radius: 7px;
+	font-family: 'Trebuchet MS';
+	font-size: 18px;
+	text-align: center;
+	color: #b5c4c2;
+	line-height: 45px;
+}
+
+.blocR .InfoM
+{
+	display: inline-block;
+	width: 100px;
+	height: 40px;
+	font-size: 18px;
+	vertical-align: middle;
+}
+
+.blocR .InfoE
+{
+	display: inline-block;
+	width: 140px;
+	font-size: 10px;
+}
+
+.blocR .Liste
+{
+	margin-left: 10px;
+	margin-right: 8px;
+	display: inline-block;
+}
+
+.SubmitRes
+{
+	margin-left: 100px;
+}
+
+.blocR .Test
+{
+	display: inline;
+}
